@@ -59,11 +59,6 @@ const nextConfig = {
   // Enable SWC minification
   swcMinify: true,
   
-  // Optimize CSS
-  experimental: {
-    optimizeCss: true,
-  },
-  
   // Production optimizations
   poweredByHeader: false,
   compress: true,

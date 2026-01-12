@@ -23,27 +23,24 @@ export default function AdminLoginPage() {
         redirect: false,
         email: formData.email,
         password: formData.password,
+        callbackUrl: '/admin',
       })
 
       if (result?.error) {
         toast.error('Invalid admin credentials')
-      } else {
-        // Verify admin role
-        const response = await fetch('/api/auth/session')
-        const session = await response.json()
-        
-        if (session?.user?.role !== 'ADMIN') {
-          toast.error('Access denied - Admin only')
-          await fetch('/api/auth/signout', { method: 'POST' })
-          return
-        }
+        setLoading(false)
+        return
+      }
 
+      if (result?.ok) {
         toast.success('Admin access granted')
-        router.push('/admin')
+        
+        // Force a hard redirect to ensure session is loaded
+        window.location.href = '/admin'
       }
     } catch (error) {
+      console.error('Auth error:', error)
       toast.error('Authentication failed')
-    } finally {
       setLoading(false)
     }
   }

@@ -11,11 +11,12 @@ export default function HomePage() {
     <div className="min-h-screen bg-white">
       <Header />
       
-      <HeroSection />
+      <div className="pt-20">
+        <HeroSection />
 
-      <AnimatedStats />
+        <AnimatedStats />
 
-      <FeaturedProducts />
+        <FeaturedProducts />
 
       {/* Why Choose Us - Alternating Timeline Design */}
       <section className="py-20 bg-white relative overflow-hidden">
@@ -147,6 +148,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      </div>
 
       <Footer />
     </div>

@@ -102,7 +102,7 @@ export default function AdminDashboard() {
 
       <div className="flex">
         {/* Sidebar */}
-        <div className={`${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 fixed lg:static inset-y-0 left-0 w-64 bg-gray-800 border-r border-gray-700 transition-transform duration-300 ease-in-out z-30 pt-16 lg:pt-0`}>
+        <div className={`${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 fixed lg:static top-[73px] lg:top-0 bottom-0 left-0 w-64 bg-gray-800 border-r border-gray-700 transition-transform duration-300 ease-in-out z-30`}>
           <nav className="p-4 space-y-2">
             <Link href="/admin" className="flex items-center gap-3 px-4 py-3 bg-gradient-to-r from-red-600 to-orange-600 rounded-lg font-semibold">
               <Activity className="w-5 h-5" />

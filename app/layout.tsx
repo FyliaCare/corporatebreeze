@@ -21,9 +21,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.variable} antialiased`}>
         <AuthProvider>
-          <div className="pt-20">
-            {children}
-          </div>
+          {children}
           <Toaster position="top-right" toastOptions={{
             duration: 4000,
             style: {
