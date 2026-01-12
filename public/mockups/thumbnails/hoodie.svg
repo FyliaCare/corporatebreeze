@@ -1,0 +1,39 @@
+<svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hoodie Thumbnail -->
+  <rect width="200" height="150" fill="#F8FAFC"/>
+  
+  <!-- Hoodie Body -->
+  <path d="M50 55 L45 60 L40 75 L40 125 L45 140 L155 140 L160 125 L160 75 L155 60 L150 55 L140 65 L125 70 L100 70 L75 70 L60 65 Z" 
+        fill="#D97706" 
+        stroke="#B45309" 
+        stroke-width="1.5"/>
+  
+  <!-- Left Sleeve -->
+  <path d="M50 55 L45 60 L30 65 L15 80 L20 95 L30 90 L40 75" 
+        fill="#F59E0B" 
+        stroke="#D97706" 
+        stroke-width="1.5"/>
+  
+  <!-- Right Sleeve -->
+  <path d="M150 55 L155 60 L170 65 L185 80 L180 95 L170 90 L160 75" 
+        fill="#F59E0B" 
+        stroke="#D97706" 
+        stroke-width="1.5"/>
+  
+  <!-- Hood -->
+  <path d="M60 55 L75 40 L85 25 L100 20 L115 25 L125 40 L140 55" 
+        fill="#F59E0B" 
+        stroke="#D97706" 
+        stroke-width="1.5"/>
+  <ellipse cx="100" cy="55" rx="30" ry="12" fill="#1F2937" opacity="0.8"/>
+  
+  <!-- Front Pocket -->
+  <path d="M65 105 L65 125 L135 125 L135 105 Q100 115 65 105" fill="#B45309" opacity="0.4"/>
+  
+  <!-- Center Seam -->
+  <line x1="100" y1="70" x2="100" y2="140" stroke="#B45309" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Drawstrings -->
+  <line x1="85" y1="55" x2="80" y2="85" stroke="#FBBF24" stroke-width="2"/>
+  <line x1="115" y1="55" x2="120" y2="85" stroke="#FBBF24" stroke-width="2"/>
+</svg>

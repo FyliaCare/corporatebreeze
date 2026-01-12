@@ -1,0 +1,25 @@
+<svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- T-Shirt Thumbnail -->
+  <rect width="200" height="150" fill="#F8FAFC"/>
+  
+  <!-- Shirt Body -->
+  <path d="M62.5 37.5 L50 45 L45 62.5 L45 100 L50 137.5 L150 137.5 L155 100 L155 62.5 L150 45 L137.5 37.5 L125 50 L112.5 55 L100 55 L87.5 55 L75 50 Z" 
+        fill="#FFFFFF" 
+        stroke="#E5E7EB" 
+        stroke-width="1.5"/>
+  
+  <!-- Left Sleeve -->
+  <path d="M62.5 37.5 L50 45 L37.5 50 L25 62.5 L30 75 L37.5 70 L45 62.5" 
+        fill="#F9FAFB" 
+        stroke="#E5E7EB" 
+        stroke-width="1.5"/>
+  
+  <!-- Right Sleeve -->
+  <path d="M137.5 37.5 L150 45 L162.5 50 L175 62.5 L170 75 L162.5 70 L155 62.5" 
+        fill="#F9FAFB" 
+        stroke="#E5E7EB" 
+        stroke-width="1.5"/>
+  
+  <!-- Collar -->
+  <ellipse cx="100" cy="45" rx="12.5" ry="7.5" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1"/>
+</svg>

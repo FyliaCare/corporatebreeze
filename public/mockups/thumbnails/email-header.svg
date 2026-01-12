@@ -1,0 +1,27 @@
+<svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Email Header Thumbnail -->
+  <rect width="200" height="150" fill="#F8FAFC"/>
+  
+  <!-- Email Window -->
+  <rect x="25" y="15" width="150" height="120" rx="4" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Email Header Bar -->
+  <rect x="25" y="15" width="150" height="25" fill="#F9FAFB"/>
+  <rect x="35" y="23" width="40" height="4" rx="1" fill="#374151"/>
+  <rect x="35" y="30" width="25" height="3" rx="1" fill="#9CA3AF"/>
+  
+  <!-- Email Banner -->
+  <rect x="30" y="45" width="140" height="45" fill="linear-gradient(135deg, #10B981 0%, #059669 100%)"/>
+  
+  <!-- Banner Content -->
+  <rect x="45" y="55" width="70" height="6" rx="2" fill="#FFFFFF"/>
+  <rect x="50" y="65" width="50" height="4" rx="1" fill="#D1FAE5"/>
+  <rect x="110" y="60" width="45" height="16" rx="3" fill="#FFFFFF" opacity="0.9"/>
+  <rect x="118" y="66" width="30" height="4" rx="1" fill="#10B981"/>
+  
+  <!-- Email Body -->
+  <rect x="35" y="98" width="100" height="3" rx="1" fill="#E5E7EB"/>
+  <rect x="35" y="105" width="80" height="3" rx="1" fill="#E5E7EB"/>
+  <rect x="35" y="112" width="90" height="3" rx="1" fill="#E5E7EB"/>
+  <rect x="35" y="119" width="60" height="3" rx="1" fill="#E5E7EB"/>
+</svg>

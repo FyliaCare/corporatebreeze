@@ -1,0 +1,48 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10"/>
+      <feOffset dx="0" dy="5"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Hoodie Body -->
+  <path d="M240 200 L190 230 L170 300 L170 450 L190 950 L610 950 L630 450 L630 300 L610 230 L560 200 L520 240 L460 260 L400 260 L340 260 L280 240 Z" 
+        fill="#4B5563" 
+        stroke="#374151" 
+        stroke-width="2"
+        filter="url(#shadow)"/>
+  
+  <!-- Hood -->
+  <path d="M280 200 Q400 120 520 200" fill="#6B7280" stroke="#374151" stroke-width="2"/>
+  <ellipse cx="400" cy="180" rx="140" ry="80" fill="#6B7280" stroke="#374151" stroke-width="2"/>
+  
+  <!-- Sleeves -->
+  <path d="M240 200 L190 230 L140 250 L90 300 L110 350 L140 330 L170 300" fill="#6B7280" stroke="#374151" stroke-width="2"/>
+  <path d="M560 200 L610 230 L660 250 L710 300 L690 350 L660 330 L630 300" fill="#6B7280" stroke="#374151" stroke-width="2"/>
+  
+  <!-- Kangaroo Pocket -->
+  <path d="M280 500 L520 500 L520 650 L280 650 Z" fill="#374151" stroke="#1F2937" stroke-width="2"/>
+  <ellipse cx="350" cy="500" rx="30" ry="15" fill="#1F2937"/>
+  <ellipse cx="450" cy="500" rx="30" ry="15" fill="#1F2937"/>
+  
+  <!-- Drawstrings -->
+  <line x1="350" y1="240" x2="350" y2="300" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="450" y1="240" x2="450" y2="300" stroke="#E5E7EB" stroke-width="3"/>
+  <circle cx="350" cy="300" r="5" fill="#E5E7EB"/>
+  <circle cx="450" cy="300" r="5" fill="#E5E7EB"/>
+  
+  <!-- Print Area -->
+  <rect id="printArea" x="280" y="350" width="240" height="280" fill="rgba(59, 130, 246, 0.05)" stroke="#3B82F6" stroke-width="1" stroke-dasharray="5,5" opacity="0.5"/>
+  
+  <!-- Zipper -->
+  <line x1="400" y1="260" x2="400" y2="950" stroke="#9CA3AF" stroke-width="2"/>
+  <rect x="395" y="265" width="10" height="20" rx="2" fill="#D1D5DB"/>
+</svg>

@@ -1,0 +1,56 @@
+<svg width="800" height="900" viewBox="0 0 800 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10"/>
+      <feOffset dx="0" dy="5"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="bagGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F9FAFB;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F3F4F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Bag Body -->
+  <path d="M150 250 L150 850 L650 850 L650 250 Z" fill="url(#bagGradient)" filter="url(#shadow)"/>
+  
+  <!-- Top Fold -->
+  <rect x="150" y="220" width="500" height="30" fill="#E5E7EB"/>
+  
+  <!-- Handles -->
+  <path d="M250 220 Q250 100 280 80 Q310 60 340 80 Q370 100 370 220" 
+        fill="none" 
+        stroke="#9CA3AF" 
+        stroke-width="20"
+        stroke-linecap="round"/>
+  <path d="M430 220 Q430 100 460 80 Q490 60 520 80 Q550 100 550 220" 
+        fill="none" 
+        stroke="#9CA3AF" 
+        stroke-width="20"
+        stroke-linecap="round"/>
+  
+  <!-- Print Area -->
+  <rect id="printArea" x="220" y="350" width="360" height="400" fill="rgba(59, 130, 246, 0.05)" stroke="#3B82F6" stroke-width="1" stroke-dasharray="5,5" opacity="0.5"/>
+  
+  <!-- Seams -->
+  <line x1="400" y1="250" x2="400" y2="850" stroke="#D1D5DB" stroke-width="2"/>
+  
+  <!-- Bottom Corners -->
+  <line x1="150" y1="850" x2="200" y2="820" stroke="#D1D5DB" stroke-width="2"/>
+  <line x1="650" y1="850" x2="600" y2="820" stroke="#D1D5DB" stroke-width="2"/>
+  
+  <!-- Side Panels -->
+  <path d="M150 250 L100 280 L100 850 L150 850" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="2"/>
+  <path d="M650 250 L700 280 L700 850 L650 850" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <!-- Stitching Details -->
+  <line x1="160" y1="260" x2="160" y2="840" stroke="#9CA3AF" stroke-width="1" stroke-dasharray="4,4" opacity="0.5"/>
+  <line x1="640" y1="260" x2="640" y2="840" stroke="#9CA3AF" stroke-width="1" stroke-dasharray="4,4" opacity="0.5"/>
+</svg>

@@ -1,0 +1,66 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+      <feOffset dx="0" dy="2"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.2"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Sheet Background -->
+  <rect x="50" y="50" width="700" height="900" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <!-- Grid Lines -->
+  <line x1="50" y1="300" x2="750" y2="300" stroke="#F3F4F6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="50" y1="550" x2="750" y2="550" stroke="#F3F4F6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="50" y1="800" x2="750" y2="800" stroke="#F3F4F6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="275" y1="50" x2="275" y2="950" stroke="#F3F4F6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="525" y1="50" x2="525" y2="950" stroke="#F3F4F6" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Sample Stickers with Print Areas -->
+  <!-- Row 1 -->
+  <circle cx="162.5" cy="175" r="100" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2" filter="url(#shadow)"/>
+  <circle cx="162.5" cy="175" r="85" fill="rgba(59, 130, 246, 0.05)" stroke="#3B82F6" stroke-width="1" stroke-dasharray="3,3" id="printArea1"/>
+  
+  <rect x="312.5" y="75" width="200" height="200" rx="100" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="327.5" y="90" width="170" height="170" rx="85" fill="rgba(59, 130, 246, 0.05)" stroke="#3B82F6" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <path d="M637.5 75 L687.5 175 L637.5 275 L587.5 275 L537.5 175 L587.5 75 Z" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2" filter="url(#shadow)"/>
+  
+  <!-- Row 2 -->
+  <rect x="75" y="325" width="175" height="175" rx="15" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="90" y="340" width="145" height="145" rx="10" fill="rgba(59, 130, 246, 0.05)" stroke="#3B82F6" stroke-width="1" stroke-dasharray="3,3" id="printArea2"/>
+  
+  <circle cx="400" cy="425" r="100" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2" filter="url(#shadow)"/>
+  <circle cx="400" cy="425" r="85" fill="rgba(59, 130, 246, 0.05)" stroke="#3B82F6" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <path d="M612.5 325 L687.5 400 L612.5 500 L537.5 400 Z" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2" filter="url(#shadow)"/>
+  
+  <!-- Row 3 -->
+  <path d="M162.5 575 L212.5 625 L162.5 725 L112.5 675 Z" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2" filter="url(#shadow)"/>
+  
+  <rect x="312.5" y="575" width="200" height="200" rx="20" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="327.5" y="590" width="170" height="170" rx="15" fill="rgba(59, 130, 246, 0.05)" stroke="#3B82F6" stroke-width="1" stroke-dasharray="3,3" id="printArea3"/>
+  
+  <circle cx="637.5" cy="675" r="100" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2" filter="url(#shadow)"/>
+  <circle cx="637.5" cy="675" r="85" fill="rgba(59, 130, 246, 0.05)" stroke="#3B82F6" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Row 4 -->
+  <rect x="75" y="825" width="175" height="100" rx="50" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="90" y="837.5" width="145" height="75" rx="37.5" fill="rgba(59, 130, 246, 0.05)" stroke="#3B82F6" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <path d="M312.5 825 L387.5 850 L512.5 850 L487.5 925 L337.5 925 Z" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2" filter="url(#shadow)"/>
+  
+  <rect x="550" y="825" width="175" height="100" rx="15" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="565" y="840" width="145" height="70" rx="10" fill="rgba(59, 130, 246, 0.05)" stroke="#3B82F6" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Peeling Corner Effect -->
+  <path d="M735 935 L750 950 L735 950 Z" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <path d="M735 935 L750 950" stroke="#D1D5DB" stroke-width="1"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Classic Business Card Thumbnail -->
+  <rect width="200" height="150" fill="#F8FAFC"/>
+  
+  <!-- Card Shadow -->
+  <rect x="33" y="43" width="140" height="80" rx="4" fill="#CBD5E1"/>
+  
+  <!-- Card -->
+  <rect x="30" y="40" width="140" height="80" rx="4" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Logo Circle -->
+  <circle cx="55" cy="65" r="12" fill="#3B82F6"/>
+  <text x="55" y="69" text-anchor="middle" fill="white" font-size="10" font-weight="bold">CB</text>
+  
+  <!-- Company Name -->
+  <rect x="75" y="58" width="80" height="6" rx="2" fill="#1F2937"/>
+  <rect x="75" y="68" width="50" height="4" rx="1" fill="#64748B"/>
+  
+  <!-- Contact Info -->
+  <rect x="45" y="90" width="60" height="3" rx="1" fill="#94A3B8"/>
+  <rect x="45" y="97" width="80" height="3" rx="1" fill="#94A3B8"/>
+  <rect x="45" y="104" width="45" height="3" rx="1" fill="#94A3B8"/>
+</svg>

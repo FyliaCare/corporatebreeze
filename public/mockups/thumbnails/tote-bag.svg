@@ -1,0 +1,23 @@
+<svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tote Bag Thumbnail -->
+  <rect width="200" height="150" fill="#F8FAFC"/>
+  
+  <!-- Bag Shadow -->
+  <ellipse cx="100" cy="135" rx="50" ry="8" fill="#CBD5E1"/>
+  
+  <!-- Handles -->
+  <path d="M65 35 Q65 15 85 15 L115 15 Q135 15 135 35" fill="none" stroke="#A16207" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Bag Body -->
+  <path d="M50 35 L55 130 L145 130 L150 35 Z" fill="#D97706" stroke="#B45309" stroke-width="1"/>
+  
+  <!-- Bag Top -->
+  <rect x="50" y="30" width="100" height="10" rx="2" fill="#F59E0B"/>
+  
+  <!-- Design Area -->
+  <rect x="65" y="55" width="70" height="55" rx="3" fill="#FEF3C7" opacity="0.3" stroke="#B45309" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Stitching -->
+  <path d="M55 40 L55 125" stroke="#92400E" stroke-width="1" stroke-dasharray="4,2"/>
+  <path d="M145 40 L145 125" stroke="#92400E" stroke-width="1" stroke-dasharray="4,2"/>
+</svg>

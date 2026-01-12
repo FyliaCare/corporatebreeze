@@ -1,0 +1,46 @@
+<svg width="600" height="800" viewBox="0 0 600 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="2" dy="4"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="coverGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Notebook Cover -->
+  <rect x="100" y="50" width="400" height="700" rx="8" fill="url(#coverGradient)" filter="url(#shadow)"/>
+  
+  <!-- Pages Edge -->
+  <rect x="105" y="55" width="10" height="690" fill="#FFFFFF" opacity="0.9"/>
+  <rect x="110" y="58" width="8" height="684" fill="#F3F4F6"/>
+  
+  <!-- Spiral Binding Holes -->
+  <circle cx="80" cy="100" r="8" fill="#9CA3AF"/>
+  <circle cx="80" cy="180" r="8" fill="#9CA3AF"/>
+  <circle cx="80" cy="260" r="8" fill="#9CA3AF"/>
+  <circle cx="80" cy="340" r="8" fill="#9CA3AF"/>
+  <circle cx="80" cy="420" r="8" fill="#9CA3AF"/>
+  <circle cx="80" cy="500" r="8" fill="#9CA3AF"/>
+  <circle cx="80" cy="580" r="8" fill="#9CA3AF"/>
+  <circle cx="80" cy="660" r="8" fill="#9CA3AF"/>
+  <circle cx="80" cy="740" r="8" fill="#9CA3AF"/>
+  
+  <!-- Print Area on Cover -->
+  <rect id="printArea" x="150" y="150" width="300" height="400" fill="rgba(255, 255, 255, 0.1)" stroke="#FFFFFF" stroke-width="1" stroke-dasharray="5,5" opacity="0.6"/>
+  
+  <!-- Cover Details -->
+  <rect x="100" y="50" width="400" height="700" rx="8" fill="none" stroke="#1E3A8A" stroke-width="2"/>
+  
+  <!-- Label Area -->
+  <rect x="380" y="680" width="100" height="40" rx="4" fill="#FFFFFF" opacity="0.2"/>
+</svg>

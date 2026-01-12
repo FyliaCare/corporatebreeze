@@ -1,0 +1,24 @@
+<svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Notebook Thumbnail -->
+  <rect width="200" height="150" fill="#F8FAFC"/>
+  
+  <!-- Book Shadow -->
+  <rect x="58" y="23" width="100" height="115" rx="3" fill="#CBD5E1"/>
+  
+  <!-- Book Cover -->
+  <rect x="55" y="20" width="100" height="115" rx="3" fill="#4F46E5" stroke="#3730A3" stroke-width="1"/>
+  
+  <!-- Spine -->
+  <rect x="55" y="20" width="12" height="115" rx="3" fill="#3730A3"/>
+  
+  <!-- Cover Design -->
+  <rect x="75" y="40" width="70" height="8" rx="2" fill="#818CF8"/>
+  <rect x="75" y="55" width="50" height="4" rx="1" fill="#A5B4FC" opacity="0.6"/>
+  <rect x="75" y="65" width="60" height="4" rx="1" fill="#A5B4FC" opacity="0.6"/>
+  
+  <!-- Logo Area -->
+  <circle cx="110" cy="100" r="15" fill="#3730A3" opacity="0.5"/>
+  
+  <!-- Elastic Band -->
+  <rect x="147" y="20" width="4" height="115" fill="#1E1B4B"/>
+</svg>

@@ -1,0 +1,54 @@
+<svg width="900" height="600" viewBox="0 0 900 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="0" dy="4"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Cap Crown -->
+  <ellipse cx="450" cy="250" rx="280" ry="180" fill="#1E40AF" filter="url(#shadow)"/>
+  
+  <!-- Cap Front Panel -->
+  <path d="M300 200 L600 200 L580 350 L320 350 Z" fill="#2563EB"/>
+  
+  <!-- Side Panels -->
+  <path d="M170 250 L300 200 L320 350 L180 320 Z" fill="#1E3A8A" opacity="0.8"/>
+  <path d="M730 250 L600 200 L580 350 L720 320 Z" fill="#1E3A8A" opacity="0.8"/>
+  
+  <!-- Top Button -->
+  <circle cx="450" cy="180" r="15" fill="#1E3A8A"/>
+  <circle cx="450" cy="180" r="12" fill="#3B82F6"/>
+  
+  <!-- Print Area on Front Panel -->
+  <rect id="printArea" x="350" y="230" width="200" height="100" fill="rgba(255, 255, 255, 0.1)" stroke="#FFFFFF" stroke-width="1" stroke-dasharray="5,5" opacity="0.6"/>
+  
+  <!-- Bill/Visor -->
+  <ellipse cx="450" cy="360" rx="350" ry="80" fill="#1E3A8A"/>
+  <ellipse cx="450" cy="355" rx="345" ry="75" fill="#2563EB"/>
+  
+  <!-- Visor Stitching -->
+  <path d="M120 360 Q450 340 780 360" fill="none" stroke="#1E40AF" stroke-width="2"/>
+  <path d="M150 370 Q450 355 750 370" fill="none" stroke="#1E40AF" stroke-width="1" stroke-dasharray="4,4"/>
+  
+  <!-- Eyelets for Ventilation -->
+  <circle cx="250" cy="280" r="8" fill="#1E3A8A" stroke="#3B82F6" stroke-width="2"/>
+  <circle cx="650" cy="280" r="8" fill="#1E3A8A" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Strap Adjuster -->
+  <rect x="420" y="340" width="60" height="15" rx="3" fill="#6B7280"/>
+  <rect x="430" y="342" width="10" height="11" fill="#9CA3AF"/>
+  <rect x="445" y="342" width="10" height="11" fill="#9CA3AF"/>
+  <rect x="460" y="342" width="10" height="11" fill="#9CA3AF"/>
+  
+  <!-- Seam Lines -->
+  <line x1="450" y1="180" x2="450" y2="350" stroke="#1E3A8A" stroke-width="1" opacity="0.5"/>
+  <path d="M300 200 Q450 190 600 200" fill="none" stroke="#1E3A8A" stroke-width="1" opacity="0.5"/>
+</svg>

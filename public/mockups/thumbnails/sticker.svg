@@ -1,0 +1,31 @@
+<svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sticker Sheet Thumbnail -->
+  <rect width="200" height="150" fill="#F8FAFC"/>
+  
+  <!-- Sheet Background -->
+  <rect x="35" y="15" width="130" height="120" rx="3" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Sticker 1 - Circle -->
+  <circle cx="65" cy="45" r="18" fill="#F472B6"/>
+  <circle cx="65" cy="45" r="15" fill="#EC4899"/>
+  
+  <!-- Sticker 2 - Star -->
+  <polygon points="100,27 104,37 115,38 107,46 109,57 100,51 91,57 93,46 85,38 96,37" fill="#FBBF24"/>
+  
+  <!-- Sticker 3 - Square -->
+  <rect x="120" y="30" width="30" height="30" rx="5" fill="#34D399"/>
+  
+  <!-- Sticker 4 - Heart -->
+  <path d="M65 80 C50 65 50 85 65 100 C80 85 80 65 65 80" fill="#EF4444"/>
+  
+  <!-- Sticker 5 - Badge -->
+  <circle cx="100" cy="90" r="18" fill="#8B5CF6"/>
+  <circle cx="100" cy="90" r="14" fill="none" stroke="#A78BFA" stroke-width="2"/>
+  
+  <!-- Sticker 6 - Diamond -->
+  <polygon points="135,75 150,90 135,105 120,90" fill="#06B6D4"/>
+  
+  <!-- Cut Lines -->
+  <circle cx="65" cy="45" r="20" fill="none" stroke="#D1D5DB" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <circle cx="65" cy="90" r="20" fill="none" stroke="#D1D5DB" stroke-width="0.5" stroke-dasharray="2,2"/>
+</svg>

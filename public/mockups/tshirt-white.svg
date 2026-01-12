@@ -1,0 +1,54 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- T-Shirt Base -->
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10"/>
+      <feOffset dx="0" dy="5" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Shirt Body -->
+  <path d="M250 150 L200 180 L180 250 L180 400 L200 950 L600 950 L620 400 L620 250 L600 180 L550 150 L500 200 L450 220 L400 220 L350 220 L300 200 Z" 
+        fill="#FFFFFF" 
+        stroke="#E5E7EB" 
+        stroke-width="2"
+        filter="url(#shadow)"/>
+  
+  <!-- Left Sleeve -->
+  <path d="M250 150 L200 180 L150 200 L100 250 L120 300 L150 280 L180 250" 
+        fill="#F9FAFB" 
+        stroke="#E5E7EB" 
+        stroke-width="2"/>
+  
+  <!-- Right Sleeve -->
+  <path d="M550 150 L600 180 L650 200 L700 250 L680 300 L650 280 L620 250" 
+        fill="#F9FAFB" 
+        stroke="#E5E7EB" 
+        stroke-width="2"/>
+  
+  <!-- Collar -->
+  <ellipse cx="400" cy="180" rx="50" ry="30" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="2"/>
+  <path d="M350 180 Q400 200 450 180" fill="none" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <!-- Print Area Rectangle (Design Area) -->
+  <rect id="printArea" x="280" y="320" width="240" height="300" fill="rgba(59, 130, 246, 0.05)" stroke="#3B82F6" stroke-width="1" stroke-dasharray="5,5" opacity="0.5"/>
+  
+  <!-- Fabric Texture -->
+  <rect x="280" y="320" width="240" height="300" fill="url(#fabric)" opacity="0.03"/>
+  
+  <!-- Seams -->
+  <line x1="400" y1="200" x2="400" y2="950" stroke="#D1D5DB" stroke-width="1" opacity="0.5"/>
+  
+  <defs>
+    <pattern id="fabric" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.5" fill="#000000"/>
+    </pattern>
+  </defs>
+</svg>

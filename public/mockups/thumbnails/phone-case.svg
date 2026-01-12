@@ -1,0 +1,26 @@
+<svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Phone Case Thumbnail -->
+  <rect width="200" height="150" fill="#F8FAFC"/>
+  
+  <!-- Phone Outer -->
+  <rect x="65" y="15" width="70" height="120" rx="12" fill="#374151" stroke="#1F2937" stroke-width="2"/>
+  
+  <!-- Phone Screen Area -->
+  <rect x="70" y="25" width="60" height="100" rx="8" fill="#6366F1"/>
+  
+  <!-- Camera Cutout -->
+  <circle cx="100" cy="20" r="3" fill="#1F2937"/>
+  
+  <!-- Screen Content -->
+  <rect x="78" y="35" width="44" height="30" rx="4" fill="#818CF8"/>
+  <rect x="78" y="70" width="35" height="4" rx="1" fill="#A5B4FC"/>
+  <rect x="78" y="78" width="25" height="4" rx="1" fill="#C4B5FD"/>
+  
+  <!-- App Icons -->
+  <rect x="78" y="90" width="12" height="12" rx="3" fill="#34D399"/>
+  <rect x="94" y="90" width="12" height="12" rx="3" fill="#F472B6"/>
+  <rect x="110" y="90" width="12" height="12" rx="3" fill="#FBBF24"/>
+  
+  <!-- Home Indicator -->
+  <rect x="90" y="115" width="20" height="4" rx="2" fill="#1F2937"/>
+</svg>
